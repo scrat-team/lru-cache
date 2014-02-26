@@ -1,0 +1,12 @@
+{
+  "name": "cache",
+  "repo": "elf/lru-cache",
+  "description": "A lru-cache module base on localStorage",
+  "version": "0.1.0",
+  "keywords": ["cache", "lru", "localStorage"],
+  "scripts": ["index.js"],
+  "remotes": [
+    "http://git.ucweb.local"
+  ],
+  "license": "MIT"
+}
