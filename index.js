@@ -148,7 +148,6 @@ function use(self, hit) {
     shiftLU(self, hit);
     hit.lu = self._mru++;
     self._lruList[hit.lu] = hit;
-    console.log('output:', self._storage);
     if (self._storage) {
         localStorage.setItem(hit.key, JSON.stringify(hit));
     }
