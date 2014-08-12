@@ -1,9 +1,9 @@
-lru-cache
+cache
 =========
 
-lru-cache 模块基于 [node-lru-cache](https://github.com/isaacs/node-lru-cache) 修改而来，加入了 localStorage 支持。
+cache 模块基于 [node-lru-cache](https://github.com/isaacs/node-lru-cache) 修改而来，加入了 localStorage 支持。
 
-lru-cache 返回一个构造函数。
+cache 返回一个构造函数。
 
 ### LRUCache(options)
 
@@ -18,7 +18,7 @@ lru-cache 返回一个构造函数。
 * __localStorage__：是否启用 localStorage 对缓存进行持久化，默认开启
 
 ``` javascript
-var LRU = require('lru-cache'),
+var LRU = require('cache'),
     options = {
         namespace: 'waterfall',
         maxAge: 3 * 60
